@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slider{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    0%{
+        background-image: url("pexels-eberhardgross-844297.jpg");
+    }
+
+    20%{
+        background-image: url("pexels-eberhardgross-844297.jpg");
+    }
+
+    20.0%{
+        background-image: url("pexels-rpnickson-2559941.jpg");
+    }
+    40%{
+        background-image: url("pexels-rpnickson-2559941.jpg");
+    }
+    40.0%{
+        background-image: url("pexels-luisdelrio-15286.jpg");
+    }
+    60%{
+        background-image: url("pexels-luisdelrio-15286.jpg");
+    }
+    60.0%{
+        background-image: url("pexels-eberhardgross-1287145.jpg");
+    }
+    80%{
+        background-image: url("pexels-eberhardgross-1287145.jpg");
+    }
+    80.0%{
+        background-image: url("/pexels-pixabay-289586.jpg");
+    }
+    100%{
+        background-image: url("pexels-pixabay-289586.jpg");
+    }
+}
+
+.card{
+    background-color: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.searchicon{
+    width: 15px;
+    color: black;
+    background-color: #7c7c7c2b;
+    border-radius: 5px;
+    
+}
+
+.search{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.searchbar{
+    padding: 1%;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn{
+    /* border-radius:10px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 35px;
+    background-color: #7c7c7c2b;
+    color: white;
+    border: none;
+    outline: none;
+    /* margin: 15px; */
+}
+
+.weather{
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+    font-style: italic;
+}
